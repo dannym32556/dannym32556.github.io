@@ -1,0 +1,80 @@
+<html lang="en-us"></html>
+<head></head>
+<meta charset="utf-8">
+<tittle>number guessing game</tittle>
+<style>
+    html{
+    font-family sans-serif;
+}
+body{
+    width:50%;
+    max-width:600px;
+    min-width:480px;
+    margin:0 auto;
+}
+. form input[type="number"] {
+    width:200px;
+}
+
+.lastreasult {
+    color:white;
+    padding:3px;
+}
+</style>
+</head>
+
+<body>
+    <h1>Number guessing game</h1>
+
+    <p>we have selected a random number between 1 and 100 see if you can guess it in 10 turnsor fewer we will tell you if your guess was to high or to low</p>
+    <div class="resultsparas">
+        <label for="guesss field"> enter a guess:</label>
+        <input type="number" min="1" max="100"requierd id="guessfield" class="guessfeild">
+        <input type="submit" value= "submit geuss" class="geuss submit">
+    </div>
+    
+    <div class="reasultsparas">
+        <p class="geusses"></p>
+        <p class="lastreasult"></p>
+        <p class="low0rhi"></p>
+        </div>
+         
+        let randomnumber =Math.floor(Math.random()  * 100) +1;
+        const guesses = document.queryselector(".guesses");
+        const lastreasult = document.querryselector(".lastreasult");
+        const low0rhi = document.querryselector (low0rhi);
+
+        const guesssubmit =document.querryselector("guesssubmit");
+        const guessfield = document.querryselector("geussfield");
+
+        let guesscount= 1;
+        let restbutten;
+
+        function checkguess() {
+            const user = number(guess field.value)
+            if (guesscount === 1) {
+                geusses.textcount= "previos games";
+            }
+            guesses.textcontent = ${guesses.text content} ${userGuess}';
+
+            if (userguess===randomNumber) {
+                lastreasult.textcontent = "congratulations you got it right";
+                lastreasults.style.backgroundcolor "green";
+                low0rhi.text content ="";
+                setgameover();
+                else if (guestcount === 10)
+                last reasult.text content = !!!game over!!!
+                low0rhi.textcontent="";
+                setgameover();}
+                else {
+                lastreasult.textcontent=wrong 
+                lastreasult.style background color = "red"}
+                if (userguess < randomnumber) {
+                low0rhi textcontent = "last guess was to high!";}
+                else if (user > randomnumber) {
+                low0rhi.textcontent="last guess was too high";}
+                 
+               guesscount++;
+               guessfield.value = "";
+               guessfeild focus();
+
