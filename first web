@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1> talk about the emotions of humans</h1> 
+    <h2>some people try and fight there inere pain</h2>
+    <table>
+    <tr>
+        <td>MOST PEOPLE BATTLE FROM CANCER</td>
+        <td>most battle from amonia</td>
+        <td>and some from yellow fever because they try and fight it </td>
+    
+          <tr class="special"> 
+            <td>Some people are going through <i>depression</i> like robert the doll</td>
+            <td>And some people die from hullucinations like the russian sleep experiment were the paitents couldent sleep for a long time and the the went crazy most lossing there minds some wouldent eat or drink hulucinating thinking that a shadow figure poisend there food</td>
+            <td>there is a place called the villisca axe murdur house and there was a murder and everyone blames a guy named kelly who got accused for him being mentaly insane</td>
+            <td>most people do experiments on mentaly insane people and did somthing caled the russian sleep experiment insted of getting them to a mentel insane hospital</td>
+            <td>there was a korean government that made the brothers home and put mentaly ensane people into slavery </td>
+        </tr>
+    </table>
+    <h3>many go through mental illnesses and halucinations</h3>
+    <p> some people have anger issues some are sensitive and have panick attacks </p>
+    <img src="image.jpg"alt = "anything" width = "200" height = "200">
+</body>
+</html>
+
+                                         
+   
